@@ -1,0 +1,33 @@
+{
+  "name": "usersapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salamandor/SimpleNodeApi.git"
+  },
+  "keywords": [
+    "\"Restful\"",
+    "\"Api\"",
+    "\"Node\"",
+    "\"Node.js\""
+  ],
+  "author": "Tamara Nieuwoudt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Salamandor/SimpleNodeApi/issues"
+  },
+  "homepage": "https://github.com/Salamandor/SimpleNodeApi#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  },
+  "dependencies": {
+    "express": "^4.15.4",
+    "mongoose": "^4.10.8"
+  }
+}
